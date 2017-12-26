@@ -5,7 +5,7 @@ const port = 3000
 
 app.use('/core', express.static(__dirname + '/../../app/core'))
 
-app.get('/', (req, res) => {
+app.get('/*', (req, res) => {
   res.sendFile('/index.html', { root: __dirname + '/../../app/core'})
 })
 

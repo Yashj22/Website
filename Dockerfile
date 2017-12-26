@@ -11,7 +11,6 @@ RUN cd app/core && npm install && npm start
 
 RUN cd server && npm install
 
-
 EXPOSE 3000
 
 CMD ["node", "server/build/server.js"]

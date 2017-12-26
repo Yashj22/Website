@@ -1,14 +1,21 @@
 import React from 'react'
 import { render } from 'react-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
+import Home from './home.jsx'
+import About from './about.jsx'
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        Home page :)
+        <Route exact={true} path="/" component={Home}/>
+        <Route exact={true} path="/about" component={About}/>        
       </div>
     );
   }
 }
 
-render(<App />, document.getElementById('app'))
+render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>, document.getElementById('app'));
