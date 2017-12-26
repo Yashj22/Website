@@ -1,10 +1,12 @@
 {
-  "name": "phi-website",
+  "name": "phi-website-backend",
   "version": "1.0.0",
-  "description": "Website for Phi - The Laurier Math and Computer Science club!",
+  "description": "Backend for the Phi Website - The Laurier Math and Computer Science club!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/tsc",
+    "start": "npm run-script build && node dist/server.js"
   },
   "repository": {
     "type": "git",

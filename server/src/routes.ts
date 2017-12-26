@@ -1,0 +1,1 @@
+export const Home = `${__dirname}/../../app/core/index.html`

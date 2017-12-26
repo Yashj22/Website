@@ -1,0 +1,19 @@
+{
+  "name": "phi-website-frontend-core",
+  "version": "1.0.0",
+  "description": "Frontend for the Phi Website - The Laurier Math and Computer Science club!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdevphi/Website.git"
+  },
+  "author": "Wlu Phi Web Development Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdevphi/Website/issues"
+  },
+  "homepage": "https://github.com/webdevphi/Website#readme"
+}
