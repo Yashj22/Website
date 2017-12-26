@@ -11,6 +11,4 @@ class App extends React.Component {
   }
 }
 
-console.log('here we are')
-
 render(<App />, document.getElementById('app'))
