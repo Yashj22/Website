@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "build",
     "allowJs": true,
     "noImplicitReturns": true,
     "target": "es2015",
